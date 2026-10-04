@@ -6,8 +6,8 @@
 
 **Intelligence to Adoption**
 
-I help engineering teams adopt AI effectively. At GlobalLogic, I build custom
-Claude/Codex development environments, AI-DLC utilities, context, skills, plugins
+I architect AI applications and multi-agent systems, and help engineering teams adopt AI effectively. At GlobalLogic, I build custom
+Claude/Codex development environments, AI-DLC development harness, context, skills, plugins
 and tools that connect AI agents to customer problems and delivery workflows.
 
 **Enterprise AI adoption · AI-native software engineering · Context engineering · Security, guardrails & evals**
@@ -26,10 +26,13 @@ I am a Solution Architect at GlobalLogic in Richardson, Texas. My current focus 
 the engineering environment around AI: how teams give an agent the right context,
 connect it to tools and workflows, control its actions and check its work.
 
-I build AI-DLC utilities on our context engine with Claude as an agent, and skills,
-plugins and tools for Claude/Codex. These custom development environments help
-organisational and client teams use AI in their own systems to solve customer
-problems. Faster software delivery and effective AI adoption are the purpose.
+I build an enterprise AI-DLC development harness over specialist Claude/Codex coding
+harnesses. Used by our engineering team, it combines enterprise context, business
+requirements, ADRs and code intelligence with specialist agents for business analysis,
+testing and front-end development. A developer agent takes a Jira task, gathers
+context, delegates implementation to Claude and review to Codex, coordinates
+feedback, raises a PR and updates Jira. Custom environments, skills, plugins and
+tools help organisational and client teams apply AI to their own systems.
 
 My context platforms connect enterprise knowledge and code through graph, keyword
 and vector retrieval and repository structure over MCP. An AI-SDLC platform I built
@@ -69,7 +72,7 @@ AI-DLC work supporting engineering teams.
 | Area | Engineering focus |
 |---|---|
 | **Enterprise AI enablement** | Custom Claude/Codex development environments, developer enablement and customer workflow integration |
-| **AI-enabled software engineering** | AI-DLC utilities, agent skills and plugins, tool integration, context over MCP, testing and review |
+| **AI-enabled software engineering** | AI-DLC development harness, agent skills and plugins, tool integration, context over MCP, testing and review |
 | **Solution architecture** | Requirements analysis, solution design, architecture decisions, service boundaries, API contracts and enterprise integration |
 | **Full-stack platforms** | Multi-tenant SaaS, Python/FastAPI microservices, React/TypeScript micro-frontends, Module Federation and shared libraries |
 | **Delivery** | CI/CD, containerisation, observability, design reviews and technical guidance across distributed teams |
@@ -87,7 +90,7 @@ AI-DLC work supporting engineering teams.
 
 ## Intelligence to Adoption — concepts demonstrated through ongoing projects
 
-At GlobalLogic, I build context engines, AI-DLC utilities and custom development
+At GlobalLogic, I build context engines, AI-DLC development harness and custom development
 environments around Claude/Codex to help teams use AI effectively in customer
 workflows. The projects below are personal, ongoing examples of the architectural
 ideas behind that work. They show how I think about context, agent tooling,
