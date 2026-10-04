@@ -84,6 +84,7 @@ They complement my enterprise experience; they are separate from employer and cl
 | Give coding agents useful repository context | [Skygraph](https://github.com/i-skynetai/skygraph) | Incremental code maps, read-only MCP tools and explicit unresolved relationships |
 | Control what an agent may do | [Skynet Harness](https://github.com/i-skynetai/skynet-harness) | Default-deny roles, SDLC skills, readiness checks, audit records and human checkpoints |
 | Connect requests to context and specialist tools | [Ethan](https://github.com/i-skynetai/ethan) | Knowledge-base routing, policy-governed launch, privacy checks and close-out records |
+| Build an agent application with shared infrastructure | [Skynet+](https://github.com/i-skynetai/sky-plus) | Provider configuration, runtime, memory, guardrails, evaluation and tracing |
 | Check when a smaller model can take over | [Praxis](https://github.com/i-skynetai/praxis) | Typed capabilities, traces, calibration, readiness gates and fallback |
 
 ### [Skygraph — context engineering for coding agents](https://github.com/i-skynetai/skygraph)
@@ -144,6 +145,26 @@ workflows remain incomplete.
 [Try the demo](https://github.com/i-skynetai/ethan#see-it-work-in-sixty-seconds) ·
 [Architecture](https://github.com/i-skynetai/ethan/blob/main/docs/architecture.md) ·
 [Roadmap](https://github.com/i-skynetai/ethan/blob/main/ROADMAP.md)
+
+### [Skynet+ — an environment for agent applications](https://github.com/i-skynetai/sky-plus)
+
+**Problem:** each agent application rebuilds runtime, model access, memory, safety,
+evaluation and tracing.
+
+**Implemented:** a Python SDK with configurable providers, readiness checks, tool
+guardrails, per-run scores, tracing and a tamper-evident event log.
+
+**Adoption value:** lets application developers concentrate on the customer workflow
+while configuring shared agent infrastructure.
+
+**Evidence and limits:** the local demo uses a fake model. LangGraph is the only real
+runtime; human checkpoints cannot yet resume and streaming is unavailable.
+Pattern-based tool-output screening does not establish complete prompt-injection
+protection. Praxis integration is planned, not implemented.
+
+[Try the demo](https://github.com/i-skynetai/sky-plus#see-it-work-in-sixty-seconds) ·
+[Architecture](https://github.com/i-skynetai/sky-plus/blob/main/docs/architecture.md) ·
+[Roadmap](https://github.com/i-skynetai/sky-plus/blob/main/ROADMAP.md)
 
 ### [Praxis — evaluation before model substitution](https://github.com/i-skynetai/praxis)
 
