@@ -40,6 +40,18 @@ includes identity, default-deny policies, tool-call audit records and human appr
 of outward actions. Testing and review check generated code and agent outputs;
 cost tracking and tracing help diagnose runs and failures.
 
+## Career progression — research, architecture and enterprise AI
+
+- **GlobalLogic USA · Aug 2025–present:** AI Platform solution architecture, enterprise
+  context, AI applications, multi-agent systems and the development harness.
+- **GlobalLogic India · Apr 2021–Aug 2025:** full-stack architecture for a medical
+  eyecare platform, solution and migration architecture, and the enterprise ITSM
+  engagement from 2024 that continued in the USA.
+- **DMI Innovation Lab · Oct 2019–Feb 2021:** product solution architecture and
+  client-focused NLP/model training for recognising patterns in data and prediction.
+- **Capgemini · Jun 2016–Oct 2019:** enterprise architecture alongside research-practice
+  work with TensorFlow, model building, training and prediction.
+
 ## Full-stack engineering foundation
 
 This work rests on 20 years in software, including ten in architecture. I remain
