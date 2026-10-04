@@ -2,10 +2,12 @@
 
 # Arup Kumar Sarkar
 
-### Software & AI Solution Architect · Requirements to Production
+### Software & AI Platform / Solution Architect
 
-I turn business requirements into software solutions, from architecture and API
-contracts to full-stack implementation. I apply that same discipline to AI platforms.
+I build enterprise AI platforms that connect knowledge, code and tools to agent
+workflows and software delivery, grounded in full-stack architecture and implementation.
+
+**Context engineering · AI-enabled software engineering · Enterprise AI enablement · AI security & governance**
 
 **20 years in software · 10 years in architecture**
 
@@ -15,7 +17,7 @@ contracts to full-stack implementation. I apply that same discipline to AI platf
 
 ---
 
-## Architecture with hands-on delivery
+## Enterprise AI with hands-on delivery
 
 I am a Solution Architect at GlobalLogic in Richardson, Texas. My work starts with
 understanding the business problem. I design how the user interface, services, APIs
@@ -50,6 +52,8 @@ Cost tracking, timing and tracing help teams understand a run and investigate fa
 
 | Area | Engineering focus |
 |---|---|
+| **Enterprise AI enablement** | Integration of enterprise context and tools into practical agent and software-delivery workflows |
+| **AI-enabled software engineering** | AI-SDLC services, coding-agent tooling, context over MCP, generated-code testing and review |
 | **Solution architecture** | Requirements analysis, solution design, architecture decisions, service boundaries, API contracts and enterprise integration |
 | **Full-stack platforms** | Multi-tenant SaaS, Python/FastAPI microservices, React/TypeScript micro-frontends, Module Federation and shared libraries |
 | **Delivery** | CI/CD, containerisation, observability, design reviews and technical guidance across distributed teams |
@@ -103,8 +107,8 @@ around a repository. I wanted that structure available as a reusable tool.
 
 ## Let's connect
 
-I welcome conversations about software solution architecture, AI solution architecture
-and enterprise platforms that combine sound design with hands-on engineering.
+I welcome conversations about AI platform and solution architecture, context engineering,
+enterprise AI enablement and secure agent workflows, with hands-on software delivery.
 Available for international relocation; employer visa sponsorship required.
 
 [Connect on LinkedIn](https://www.linkedin.com/in/arupmmi/) or
