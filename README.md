@@ -2,12 +2,15 @@
 
 # Arup Kumar Sarkar
 
-### Software & AI Platform / Solution Architect
+### AI Platform & Solution Architect
 
-I build enterprise AI platforms that connect knowledge, code and tools to agent
-workflows and software delivery, grounded in full-stack architecture and implementation.
+**Intelligence to Adoption**
 
-**Context engineering · AI-enabled software engineering · Enterprise AI enablement · AI security & governance**
+I help engineering teams adopt AI effectively. At GlobalLogic, I build custom
+Claude/Codex development environments, AI-DLC utilities, context, skills, plugins
+and tools that connect AI agents to customer problems and delivery workflows.
+
+**Enterprise AI adoption · AI-native software engineering · Context engineering · Security, guardrails & evals**
 
 **20 years in software · 10 years in architecture**
 
@@ -17,43 +20,44 @@ workflows and software delivery, grounded in full-stack architecture and impleme
 
 ---
 
-## Enterprise AI with hands-on delivery
+## Enterprise AI adoption and developer enablement
 
-I am a Solution Architect at GlobalLogic in Richardson, Texas. My work starts with
-understanding the business problem. I design how the user interface, services, APIs
-and data fit together, then stay involved as the teams build and deliver the solution.
+I am a Solution Architect at GlobalLogic in Richardson, Texas. My current focus is
+the engineering environment around AI: how teams give an agent the right context,
+connect it to tools and workflows, control its actions and check its work.
 
-I build multi-tenant SaaS platforms, Python/FastAPI microservices and React/TypeScript
-micro-frontends. My work includes service and API contracts, architecture decision
-records, shared component libraries and tenant isolation designed into the data model.
+I build AI-DLC utilities on our context engine with Claude as an agent, and skills,
+plugins and tools for Claude/Codex. These custom development environments help
+organisational and client teams use AI in their own systems to solve customer
+problems. Faster software delivery and effective AI adoption are the purpose.
 
-On a SaaS platform with four independently deployed micro-frontends, I helped design
-and build the application shell, several micro-frontends and shared component and
-API libraries. My architecture work covers these areas within the wider platform design.
+My context platforms connect enterprise knowledge and code through graph, keyword
+and vector retrieval and repository structure over MCP. An AI-SDLC platform I built
+is used by three enterprise clients of a European enterprise ITSM SaaS vendor.
 
-My AI work includes an agentic IT service-management application. A central context
-engine acts as a shared source of truth for agents: they retrieve knowledge to analyse
-issues, link service-desk tickets to incidents and problems, identify impacted services,
-and produce impact reports. Similar incidents provide context for business impact
-and possible solutions. My contribution spans the context engine, selected application
-areas and AI proofs of concept within the wider platform architecture.
+Security, guardrails and evaluations are part of the solution. My agent tooling
+includes identity, default-deny policies, tool-call audit records and human approval
+of outward actions. Testing and review check generated code and agent outputs;
+cost tracking and tracing help diagnose runs and failures.
 
-Separately, I built an AI-SDLC platform that uses code and design context for software
-delivery workflows. It is used by three enterprise clients of a European enterprise
-ITSM SaaS vendor.
+## Full-stack engineering foundation
 
-I work across AI security, evaluation and operations. Enterprise platform work includes
-tenant isolation and access controls; my agent tooling adds agent identity, default-deny
-policies, guardrails, tool-call audit trails and human approval of outward actions.
-Evaluation, testing and review help check retrieval, agent outputs and generated code.
-Cost tracking, timing and tracing help teams understand a run and investigate failures.
+This work rests on 20 years in software, including ten in architecture. I remain
+hands-on with Python/FastAPI, React/TypeScript, microservices and distributed systems.
+Within a multi-tenant SaaS platform, my architecture and implementation contributions
+cover the application shell, selected micro-frontends, shared libraries and AI work
+within the wider platform design.
+
+My agentic ITSM work connects shared context to ticket, incident and problem analysis,
+impacted-service discovery and business-impact reasoning. This is distinct from the
+AI-DLC work supporting engineering teams.
 
 ## What I work on
 
 | Area | Engineering focus |
 |---|---|
-| **Enterprise AI enablement** | Integration of enterprise context and tools into practical agent and software-delivery workflows |
-| **AI-enabled software engineering** | AI-SDLC services, coding-agent tooling, context over MCP, generated-code testing and review |
+| **Enterprise AI enablement** | Custom Claude/Codex development environments, developer enablement and customer workflow integration |
+| **AI-enabled software engineering** | AI-DLC utilities, agent skills and plugins, tool integration, context over MCP, testing and review |
 | **Solution architecture** | Requirements analysis, solution design, architecture decisions, service boundaries, API contracts and enterprise integration |
 | **Full-stack platforms** | Multi-tenant SaaS, Python/FastAPI microservices, React/TypeScript micro-frontends, Module Federation and shared libraries |
 | **Delivery** | CI/CD, containerisation, observability, design reviews and technical guidance across distributed teams |
