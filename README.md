@@ -73,34 +73,96 @@ AI-DLC work supporting engineering teams.
 - **Make decisions explicit.** Define contracts, constraints and architecture decisions so teams can work independently.
 - **Give AI useful context.** Supply the relevant files, decisions and constraints, then verify the result through tests and review.
 
-## Featured open-source work
+## Intelligence to Adoption — projects you can inspect
 
-### [Skynet Harness — one policy for the AI coding agents you already use](https://github.com/i-skynetai/skynet-harness)
+These personal open-source projects demonstrate parts of the engineering environment
+that makes AI useful: context, controlled tools, workflow coordination and evaluation.
+They complement my enterprise experience; they are separate from employer and client systems.
 
-Runs Claude Code, Codex or Kimi under one written policy. Each run gets a role with a
-fixed list of tools, context from one knowledge base, a local record of every tool call,
-and a human checkpoint on anything that leaves the machine, such as a push, a pull
-request or a ticket comment.
+| Adoption challenge | Project | What to inspect |
+|---|---|---|
+| Give coding agents useful repository context | [Skygraph](https://github.com/i-skynetai/skygraph) | Incremental code maps, read-only MCP tools and explicit unresolved relationships |
+| Control what an agent may do | [Skynet Harness](https://github.com/i-skynetai/skynet-harness) | Default-deny roles, SDLC skills, readiness checks, audit records and human checkpoints |
+| Connect requests to context and specialist tools | [Ethan](https://github.com/i-skynetai/ethan) | Knowledge-base routing, policy-governed launch, privacy checks and close-out records |
+| Check when a smaller model can take over | [Praxis](https://github.com/i-skynetai/praxis) | Typed capabilities, traces, calibration, readiness gates and fallback |
 
-**Why I built it:** unmanaged coding agents invent context, act outside their job and
-report success that never happened. Each agent product has its own settings, so a team
-using two of them keeps two sets of rules that drift apart.
+### [Skygraph — context engineering for coding agents](https://github.com/i-skynetai/skygraph)
 
-[Read the code](https://github.com/i-skynetai/skynet-harness) ·
+**Problem:** an agent spends each session rediscovering repository structure.
+
+**Implemented:** an incremental index of files, symbols, calls and imports, exposed
+through read-only MCP tools. Agents can query dependencies and change impact; unresolved
+relationships are marked rather than guessed.
+
+**Adoption value:** reusable repository context for Claude Code and Codex, with a
+one-command setup and a sample-project demo.
+
+**Evidence and limits:** the public repository includes a benchmark with hand-checked
+answers. Call resolution remains partial; the agent still needs to inspect source where
+the index cannot resolve a relationship.
+
+[Try the demo](https://github.com/i-skynetai/skygraph#see-it-work-in-sixty-seconds) ·
+[Architecture](https://github.com/i-skynetai/skygraph/blob/main/docs/architecture.md) ·
+[Limits and roadmap](https://github.com/i-skynetai/skygraph/blob/main/ROADMAP.md)
+
+### [Skynet Harness — governed AI development workflows](https://github.com/i-skynetai/skynet-harness)
+
+**Problem:** agent settings drift, tool access is unclear, and outward actions need
+human control.
+
+**Implemented:** one written policy, agent roles, default-deny actions, knowledge-base
+connections, SDLC skills, readiness checks and local audit records. Outward actions are
+prepared for a person to execute.
+
+**Adoption value:** explicit operating rules around the coding tools a team already uses.
+
+**Evidence and limits:** the policy demo works without a model account. Claude Code
+supports every managed role; Codex supports the reviewer role; Kimi currently supports
+no managed role. A full run needs a supplied knowledge base. The harness is not a
+security sandbox.
+
+[Try the policy demo](https://github.com/i-skynetai/skynet-harness#see-it-work-in-sixty-seconds) ·
 [Architecture](https://github.com/i-skynetai/skynet-harness/blob/main/docs/architecture.md) ·
 [Policy](https://github.com/i-skynetai/skynet-harness/blob/main/docs/policy.md)
 
-### [Skygraph — code intelligence for AI coding assistants](https://github.com/i-skynetai/skygraph)
+### [Ethan — context and workflow coordination](https://github.com/i-skynetai/ethan)
 
-A repository map that coding assistants can query over MCP: find symbols, follow
-calls and imports, and inspect the impact of a change. The index refreshes changed
-files and reports uncertainty when a relationship cannot be resolved.
+**Problem:** the operator repeatedly selects a knowledge base, picks an agent, writes
+the brief and decides what to retain.
 
-**Why I built it:** coding assistants repeatedly spend context finding their way
-around a repository. I wanted that structure available as a reusable tool.
+**Implemented:** hint-first knowledge-base routing, cited context, launch through the
+harness, privacy checks on retained knowledge and a task ledger. Entry points include
+a local console, CLI and Telegram.
 
-[Read the code](https://github.com/i-skynetai/skygraph) ·
-[Architecture](https://github.com/i-skynetai/skygraph/blob/main/docs/architecture.md)
+**Adoption value:** connects a request to the appropriate context and specialist tool
+while keeping the person responsible for decisions.
+
+**Evidence and limits:** the published demo exercises routing, policy checks and
+close-out with a stand-in agent. Real-agent end-to-end validation, status and inbox
+workflows remain incomplete.
+
+[Try the demo](https://github.com/i-skynetai/ethan#see-it-work-in-sixty-seconds) ·
+[Architecture](https://github.com/i-skynetai/ethan/blob/main/docs/architecture.md) ·
+[Roadmap](https://github.com/i-skynetai/ethan/blob/main/ROADMAP.md)
+
+### [Praxis — evaluation before model substitution](https://github.com/i-skynetai/praxis)
+
+**Problem:** replacing repeated frontier-model calls with a smaller model requires
+evidence that the smaller model is ready.
+
+**Implemented:** typed capabilities, trace capture, calibration, readiness gates,
+shadow/canary/serve stages and fallback when a student abstains or returns an invalid
+answer.
+
+**Adoption value:** makes model substitution a checked engineering decision.
+
+**Evidence and limits:** the demo uses synthetic tickets and a rule-based teacher.
+Dataset and paired-scorecard work remains on the roadmap. This is an evolving
+implementation; production training, deployment and measured savings are not claimed.
+
+[Try the demo](https://github.com/i-skynetai/praxis#see-it-work-in-sixty-seconds) ·
+[Architecture and test guarantees](https://github.com/i-skynetai/praxis/blob/main/docs/architecture.md) ·
+[Release plan](https://github.com/i-skynetai/praxis/blob/main/docs/release-plan-v1.0.md)
 
 ## Tools I use
 
