@@ -29,16 +29,22 @@ On a SaaS platform with four independently deployed micro-frontends, I helped de
 and build the application shell, several micro-frontends and shared component and
 API libraries. My architecture work covers these areas within the wider platform design.
 
-That foundation carries into my AI work: RAG and knowledge-graph retrieval, agent
-workflows, code intelligence and client-facing applications. I built an AI-SDLC
-platform used by three enterprise clients of a European enterprise ITSM SaaS vendor.
+My AI work includes an agentic IT service-management application. A central context
+engine acts as a shared source of truth for agents: they retrieve knowledge to analyse
+issues, link service-desk tickets to incidents and problems, identify impacted services,
+and produce impact reports. Similar incidents provide context for business impact
+and possible solutions. My contribution spans the context engine, selected application
+areas and AI proofs of concept within the wider platform architecture.
 
-Within AI, my focus includes security and governance: agent identity, access policy,
-audit trails and human approval of outward actions.
+Separately, I built an AI-SDLC platform that uses code and design context for software
+delivery workflows. It is used by three enterprise clients of a European enterprise
+ITSM SaaS vendor.
 
-I pay attention to what happens after an AI demo works: keeping client data separate,
-recording operating costs, tracing failures and checking AI-generated code through
-tests and review.
+I work across AI security, evaluation and operations. Enterprise platform work includes
+tenant isolation and access controls; my agent tooling adds agent identity, default-deny
+policies, guardrails, tool-call audit trails and human approval of outward actions.
+Evaluation, testing and review help check retrieval, agent outputs and generated code.
+Cost tracking, timing and tracing help teams understand a run and investigate failures.
 
 ## What I work on
 
@@ -48,7 +54,9 @@ tests and review.
 | **Full-stack platforms** | Multi-tenant SaaS, Python/FastAPI microservices, React/TypeScript micro-frontends, Module Federation and shared libraries |
 | **Delivery** | CI/CD, containerisation, observability, design reviews and technical guidance across distributed teams |
 | **AI & retrieval** | RAG, knowledge graphs, hybrid graph/keyword/vector search, grounded agent workflows and context engineering |
+| **Agentic business applications** | Shared context for ticket, incident and problem analysis, impacted-service discovery and business-impact reporting |
 | **AI security** | Agent identity, role policies, tool-call audit trails, human approval, tenant isolation and access control |
+| **Evaluation & operations** | LLM evaluation, output verification, cost tracking, timings, tracing and failure diagnosis |
 | **Code intelligence** | Syntax trees, symbols, call graphs and incremental repository context |
 
 ## How I work
