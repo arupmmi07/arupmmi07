@@ -9,7 +9,7 @@ contracts to full-stack implementation. I apply that same discipline to AI platf
 
 **20 years in software · 10 years in architecture**
 
-[LinkedIn](https://www.linkedin.com/in/arupmmi/) · [Email](mailto:arupus07@gmail.com) · [Explore Skygraph](https://github.com/arupmmi07/skygraph)
+[LinkedIn](https://www.linkedin.com/in/arupmmi/) · [Email](mailto:arupus07@gmail.com) · [Explore Skygraph](https://github.com/i-skynetai/skygraph)
 
 </div>
 
@@ -67,7 +67,7 @@ Cost tracking, timing and tracing help teams understand a run and investigate fa
 
 ## Featured open-source work
 
-### [Skygraph — code intelligence for AI coding assistants](https://github.com/arupmmi07/skygraph)
+### [Skygraph — code intelligence for AI coding assistants](https://github.com/i-skynetai/skygraph)
 
 A repository map that coding assistants can query over MCP: find symbols, follow
 calls and imports, and inspect the impact of a change. The index refreshes changed
@@ -76,8 +76,8 @@ files and reports uncertainty when a relationship cannot be resolved.
 **Why I built it:** coding assistants repeatedly spend context finding their way
 around a repository. I wanted that structure available as a reusable tool.
 
-[Read the code](https://github.com/arupmmi07/skygraph) ·
-[Architecture](https://github.com/arupmmi07/skygraph/blob/main/docs/architecture.md)
+[Read the code](https://github.com/i-skynetai/skygraph) ·
+[Architecture](https://github.com/i-skynetai/skygraph/blob/main/docs/architecture.md)
 
 ## Tools I use
 
