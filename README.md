@@ -25,9 +25,9 @@ I build multi-tenant SaaS platforms, Python/FastAPI microservices and React/Type
 micro-frontends. My work includes service and API contracts, architecture decision
 records, shared component libraries and tenant isolation designed into the data model.
 
-On a production SaaS platform, I designed four independently deployed micro-frontends
-and the shared components and API libraries behind them, so teams could work and
-release independently.
+On a SaaS platform with four independently deployed micro-frontends, I helped design
+and build the application shell, several micro-frontends and shared component and
+API libraries. My architecture work covers these areas within the wider platform design.
 
 That foundation carries into my AI work: RAG and knowledge-graph retrieval, agent
 workflows, code intelligence and client-facing applications. I built an AI-SDLC
