@@ -9,7 +9,7 @@ contracts to full-stack implementation. I apply that same discipline to AI platf
 
 **20 years in software · 10 years in architecture**
 
-[LinkedIn](https://www.linkedin.com/in/arupmmi/) · [Email](mailto:arupus07@gmail.com) · [Explore Skygraph](https://github.com/i-skynetai/skygraph)
+[LinkedIn](https://www.linkedin.com/in/arupmmi/) · [Email](mailto:arupus07@gmail.com) · [Skynet Harness](https://github.com/i-skynetai/skynet-harness) · [Skygraph](https://github.com/i-skynetai/skygraph)
 
 </div>
 
@@ -66,6 +66,21 @@ Cost tracking, timing and tracing help teams understand a run and investigate fa
 - **Give AI useful context.** Supply the relevant files, decisions and constraints, then verify the result through tests and review.
 
 ## Featured open-source work
+
+### [Skynet Harness — one policy for the AI coding agents you already use](https://github.com/i-skynetai/skynet-harness)
+
+Runs Claude Code, Codex or Kimi under one written policy. Each run gets a role with a
+fixed list of tools, context from one knowledge base, a local record of every tool call,
+and a human checkpoint on anything that leaves the machine, such as a push, a pull
+request or a ticket comment.
+
+**Why I built it:** unmanaged coding agents invent context, act outside their job and
+report success that never happened. Each agent product has its own settings, so a team
+using two of them keeps two sets of rules that drift apart.
+
+[Read the code](https://github.com/i-skynetai/skynet-harness) ·
+[Architecture](https://github.com/i-skynetai/skynet-harness/blob/main/docs/architecture.md) ·
+[Policy](https://github.com/i-skynetai/skynet-harness/blob/main/docs/policy.md)
 
 ### [Skygraph — code intelligence for AI coding assistants](https://github.com/i-skynetai/skygraph)
 
