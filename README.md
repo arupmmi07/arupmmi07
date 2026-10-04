@@ -17,14 +17,17 @@ contracts to full-stack implementation. I apply that same discipline to AI platf
 
 ## Architecture with hands-on delivery
 
-I am a Solution Architect at GlobalLogic in Richardson, Texas. My foundation is
-enterprise software solutioning: understanding requirements, defining system
-boundaries, designing services and integrations, and taking the solution through
-implementation and delivery.
+I am a Solution Architect at GlobalLogic in Richardson, Texas. My work starts with
+understanding the business problem. I design how the user interface, services, APIs
+and data fit together, then stay involved as the teams build and deliver the solution.
 
 I build multi-tenant SaaS platforms, Python/FastAPI microservices and React/TypeScript
 micro-frontends. My work includes service and API contracts, architecture decision
 records, shared component libraries and tenant isolation designed into the data model.
+
+On a production SaaS platform, I designed four independently deployed micro-frontends
+and the shared components and API libraries behind them, so teams could work and
+release independently.
 
 That foundation carries into my AI work: RAG and knowledge-graph retrieval, agent
 workflows, code intelligence and client-facing applications. I built an AI-SDLC
@@ -32,6 +35,10 @@ platform used by three enterprise clients of a European enterprise ITSM SaaS ven
 
 Within AI, my focus includes security and governance: agent identity, access policy,
 audit trails and human approval of outward actions.
+
+I pay attention to what happens after an AI demo works: keeping client data separate,
+recording operating costs, tracing failures and checking AI-generated code through
+tests and review.
 
 ## What I work on
 
