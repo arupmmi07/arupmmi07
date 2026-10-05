@@ -25,11 +25,11 @@ and tools that connect AI agents to customer problems and delivery workflows.
 A conceptual view of how my main areas connect, illustrated through ongoing personal projects.
 
 ```mermaid
+%%{init: {"flowchart": {"rankSpacing": 25, "nodeSpacing": 30}}}%%
 flowchart TB
-    N["Customer problem and business requirements"] --> C["Enterprise context<br/>Knowledge · ADRs · Code intelligence"]
-    C --> H["AI-DLC development harness<br/>Agent coordination · Skills · Plugins · Tools"]
-    H --> S["Specialist agents<br/>Business analysis · Testing · Front-end"]
-    S --> A["Coding harnesses<br/>Claude implementation ↔ Codex review"]
+    C["Customer problem + enterprise context<br/>Requirements · Knowledge · ADRs · Code intelligence"]
+    C --> H["AI-DLC development harness<br/>Specialist agents: Business analysis · Testing · Front-end<br/>Skills · Plugins · Tools"]
+    H --> A["Coding harnesses<br/>Claude implementation ↔ Codex review"]
     A --> D["Delivery in the customer environment<br/>Pull requests · Jira updates"]
     C --> M["AI applications and multi-agent systems"]
     D --> O["INTELLIGENCE TO ADOPTION<br/>Practical enterprise use"]
@@ -42,7 +42,7 @@ flowchart TB
     classDef governance fill:#fff7ed,stroke:#ea580c,color:#7c2d12
     classDef outcome fill:#dcfce7,stroke:#16a34a,color:#14532d
     class C context
-    class H,S,A,M harness
+    class H,A,M harness
     class G governance
     class O outcome
 ```
